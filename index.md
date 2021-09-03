@@ -1,37 +1,24 @@
-## Welcome to GitHub Pages
+## Sensitive information disclosure vulnerability in D-Link dir-605l B2 2.01mt
 
-You can use the [editor on GitHub](https://github.com/Ilovewomen/D-LINK-DIR-615/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+Sensitive information disclosure vulnerability exists in D-Link dir-605l B2 2.01mt. An attacker can obtain a user name and password by forging a post request to the / getcfg.php page
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
 
-### Markdown
+## harm
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+An attacker can access this page without authorization, obtain the user name and password in plaintext, and obtain background management privileges after logging in to the background
 
-```markdown
-Syntax highlighted code block
 
-# Header 1
-## Header 2
-### Header 3
+## Test method
+1. Visit the d-link-dir-605l background login page
 
-- Bulleted
-- List
+![image](https://user-images.githubusercontent.com/90023952/131959536-11a1cf7b-bd26-4ef6-9c52-5ae002c44811.png)
 
-1. Numbered
-2. List
+2. Enter any password, then grab the packet and modify the packet content as follows
 
-**Bold** and _Italic_ and `Code` text
+![image](https://user-images.githubusercontent.com/90023952/131959930-bdc051b1-e234-4803-972d-adf58ddeb554.png)
 
-[Link](url) and ![Image](src)
-```
+![image](https://user-images.githubusercontent.com/90023952/131959858-ace71dc7-41c0-4f25-852d-ecc01f2016fd.png)
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+3.Use the obtained user name and password to successfully log in to the background
 
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/Ilovewomen/D-LINK-DIR-615/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+![image](https://user-images.githubusercontent.com/90023952/131960031-dc264f90-9e09-48df-9e01-b0860fc3d637.png)
