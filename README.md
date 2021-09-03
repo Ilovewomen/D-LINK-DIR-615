@@ -18,7 +18,7 @@ An attacker can access this page without authorization, obtain the user name and
 
 ![image](https://user-images.githubusercontent.com/90023952/131959930-bdc051b1-e234-4803-972d-adf58ddeb554.png)
 
-![image](https://user-images.githubusercontent.com/90023952/131959858-ace71dc7-41c0-4f25-852d-ecc01f2016fd.png)
+![image](https://user-images.githubusercontent.com/90023952/131970186-aa50bc1f-8fea-44ab-b555-bbc0734409db.png)
 
 3.Use the obtained user name and password to successfully log in to the background
 
@@ -93,7 +93,7 @@ python D-LINK-DIR-615.py -u http://xxx.xxx.xxx.xxx
 
 python D-LINK-DIR-615.py -r file.txt
 
-![image](https://user-images.githubusercontent.com/90023952/131964614-304bcbfe-3938-4375-93ae-da72ee297b54.png)
+![image](https://user-images.githubusercontent.com/90023952/131969868-2209f5e9-31ec-4b1f-bb51-5779e6511827.png)
 
 After the batch detection script is executed, a file named "dir-615-vulnerability-file. TXT" will be generated in the current folder, with the contents of vulnerability URL and explored user name and password
 
