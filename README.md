@@ -1,4 +1,4 @@
-# D-LINK-DIR-615
+# D-LINK-DIR-605
 ## Sensitive information disclosure vulnerability in D-Link dir-605l B2 2.01mt
 
 Sensitive information disclosure vulnerability exists in D-Link dir-605l B2 2.01mt. An attacker can obtain a user name and password by forging a post request to the / getcfg.php page
