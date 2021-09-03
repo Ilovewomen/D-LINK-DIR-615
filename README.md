@@ -22,7 +22,7 @@ An attacker can access this page without authorization, obtain the user name and
 
 3.Use the obtained user name and password to successfully log in to the background
 
-![image](https://user-images.githubusercontent.com/90023952/131960031-dc264f90-9e09-48df-9e01-b0860fc3d637.png)
+![image](https://user-images.githubusercontent.com/90023952/131967546-aedaccf8-c7e6-45a2-aad3-3b30c0869a6a.png)
 
 ## Script automation detection
 
