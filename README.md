@@ -1,7 +1,7 @@
 # D-LINK-DIR-615
-## Sensitive information disclosure vulnerability in D-Link dir-605l B2 2.01mt
+## Sensitive information disclosure vulnerability in D-Link dir-605l Hardware Version : Q1 Firmware Version : 17.00
 
-Sensitive information disclosure vulnerability exists in D-Link dir-605l B2 2.01mt. An attacker can obtain a user name and password by forging a post request to the / getcfg.php page
+Sensitive information disclosure vulnerability exists in D-Link dir-615 Hardware Version : Q1 Firmware Version : 17.00. An attacker can obtain a user name and password by forging a post request to the / getcfg.php page
 
 
 ## harm
@@ -10,9 +10,9 @@ An attacker can access this page without authorization, obtain the user name and
 
 
 ## Test method
-1. Visit the d-link-dir-605l background login page
+1. Visit the d-link-dir-615 background login page
 
-![image](https://user-images.githubusercontent.com/90023952/131959536-11a1cf7b-bd26-4ef6-9c52-5ae002c44811.png)
+![image](https://user-images.githubusercontent.com/90023952/131967300-7de24cb6-2c48-4c29-9e80-c89ca244ccd4.png)
 
 2. Enter any password, then grab the packet and modify the packet content as follows
 
