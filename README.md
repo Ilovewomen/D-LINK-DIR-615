@@ -1,5 +1,5 @@
 # D-LINK-DIR-615
-## Sensitive information disclosure vulnerability in D-Link dir-605l Hardware Version : Q1 Firmware Version : 17.00
+## Sensitive information disclosure vulnerability in D-Link dir-615 Hardware Version : Q1 Firmware Version : 17.00
 
 Sensitive information disclosure vulnerability exists in D-Link dir-615 Hardware Version : Q1 Firmware Version : 17.00. An attacker can obtain a user name and password by forging a post request to the / getcfg.php page
 
