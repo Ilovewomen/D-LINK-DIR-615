@@ -87,19 +87,23 @@ if file !="":
 
 python D-LINK-DIR-615.py -u http://xxx.xxx.xxx.xxx
 
-![image](https://user-images.githubusercontent.com/90023952/131964546-cfb63863-5e3e-46a0-a237-94076f6a47d2.png)
+![image](https://user-images.githubusercontent.com/90023952/131969868-2209f5e9-31ec-4b1f-bb51-5779e6511827.png)
 
 2. Batch inspection
 
 python D-LINK-DIR-615.py -r file.txt
 
-![image](https://user-images.githubusercontent.com/90023952/131969868-2209f5e9-31ec-4b1f-bb51-5779e6511827.png)
+![image](https://user-images.githubusercontent.com/90023952/132079411-872f953b-edf7-49d5-9db5-56e7f8530225.png)
 
 After the batch detection script is executed, a file named "dir-615-vulnerability-file. TXT" will be generated in the current folder, with the contents of vulnerability URL and explored user name and password
 
 ![image](https://user-images.githubusercontent.com/90023952/131964740-c30b05a7-86e2-4345-8b10-a63e82d6df98.png)
 
+
 ![image](https://user-images.githubusercontent.com/90023952/131964819-83b55c78-5dc5-48a7-b62a-acab7258a838.png)
+
+
+
 
 
 
